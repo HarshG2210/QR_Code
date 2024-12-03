@@ -5,7 +5,7 @@ import React, { useRef, useState } from "react";
 import { QRCodeCanvas } from "qrcode.react";
 
 const App = () => {
-  const [url, setUrl] = useState("https://www.aartimultiservices.com/");
+  const [url, setUrl] = useState("");
   const qrCodeRef = useRef();
 
   const handleUrlChange = (event) => {
